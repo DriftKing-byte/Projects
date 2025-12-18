@@ -1,6 +1,6 @@
 # %%
 from typing import Annotated, Sequence
-from langchain_core.messages import BaseMessage
+from langchain.schema import BaseMessage
 from langgraph.graph import add_messages
 from typing import TypedDict
 
