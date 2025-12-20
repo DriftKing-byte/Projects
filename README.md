@@ -1,9 +1,9 @@
-**Image Tagger
-**
+Image Tagger
+
 A multimodal rag application for tagging images or providing image descriptions leveraging locally run LLaVA:7b using Ollama. The user can feed any image and choose whether to get tags or descriptions, and the model will generate such respectively. Image tags consist of 5 unique words and image descriptions contain up to 3 sentences. OpenAI’s CLIP model for unified embeddings of text and images was used for data preprocessing.
 
-**Visa Chatbot (File: Visa_Chatbot_Notebook.ipynb)
-**
+Visa Chatbot (File: Visa_Chatbot_Notebook.ipynb)
+
 A QA rag application for visa questions built leveraging locally run llama 3.1 using Ollama based on the ReAct agent architecture. The user can ask visa related questions, and the chatbot will search credible, government sources for curating a high quality response. The chatbot also has memory within the session and human feedback in the loop. So, the chatbot remembers previous human messages and asks clarifying questions when needed. The production grade app was built using Streamlit.
 
 QA Chatbot for any Topic (File: FAQ_Chatbot_For_Any_Topic.ipynb)
