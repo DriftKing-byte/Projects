@@ -1,3 +1,7 @@
+YouTube Data Engineering & Analytics Pipeline - AWS
+
+Engineered a cloud‑native data pipeline to ingest, transform, and analyze structured/semi‑structured YouTube trending‑video data across multiple regions. Designed a scalable data lake architecture using Amazon S3 with Landing, Cleansed, Deduped, and Conformed zones for multi‑source ingestion. Built ETL workflows using AWS Glue and AWS Lambda, enabling automated schema detection, transformation, and enrichment. Queried large datasets using AWS Athena and delivered interactive analytics dashboards via Amazon QuickSight. Ensured secure access and governance using AWS IAM, supporting scalable, production‑ready data operations.
+
 Image Tagger & Description Generator (Multimodal RAG, LLaVA, CLIP)
 
 A multimodal rag application for tagging images or providing image descriptions leveraging locally run LLaVA:7b using Ollama. The user can feed any image and choose whether to get tags or descriptions, and the model will generate such respectively. Image tags consist of 5 unique words and image descriptions contain up to 3 sentences. OpenAI’s CLIP model for unified embeddings of text and images was used for data preprocessing.
