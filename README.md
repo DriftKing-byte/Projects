@@ -1,4 +1,4 @@
-YouTube Data Engineering & Analytics Pipeline - AWS
+YouTube Data Engineering & Analytics Pipeline - AWS (File: Youtube_Data_Engineering_Pipeline_AWS_Lambda_Function)
 
 Engineered a cloud‑native data pipeline to ingest, transform, and analyze structured/semi‑structured YouTube trending‑video data across multiple regions. Designed a scalable data lake architecture using Amazon S3 with Landing, Cleansed, Deduped, and Conformed zones for multi‑source ingestion. Built ETL workflows using AWS Glue and AWS Lambda, enabling automated schema detection, transformation, and enrichment. Queried large datasets using AWS Athena and delivered interactive analytics dashboards via Amazon QuickSight. Ensured secure access and governance using AWS IAM, supporting scalable, production‑ready data operations.
 
